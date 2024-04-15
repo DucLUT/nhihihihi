@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "npx vite",
     "build": "tsc && npx vite build",
-    "deploy": "npm install && npx vite build && gh-pages -d dist -r https://github.com/DucLUT/nhihihihi.git",
+    "deploy": "npm install && npx vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "npx vite preview"
   },
